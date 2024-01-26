@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "lint": "eslint --fix . --ext .js,.jsx",
     "format": "prettier --write .",
-    "build": "webpack --mode=development",
-    "dev": "webpack serve --mode=development",
+    "build": "webpack --mode = development",
+    "dev": "webpack serve --mode = development",
     "test": "jest --verbose",
     "gitTree": "git subtree push --prefix build origin gh-pages"
   },
