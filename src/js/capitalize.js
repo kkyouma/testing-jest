@@ -1,6 +1,6 @@
 function capitalize(string) {
   string.toString();
-  string[0].toUppercase();
+  string.charAt(0).toUpperCase();
   return string;
 }
 
